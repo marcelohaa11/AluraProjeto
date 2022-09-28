@@ -1,0 +1,179 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-principal: #C0C0C0;
+    --azul-botao: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+
+body {
+    background: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font: none;
+}
+
+/* CSS das sessões*/
+
+.container {
+    height: 100vh ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+/* Primeira sessão */
+
+.principal {
+    background-image: url(Images/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container-caixa {
+    padding: 0 6em;
+}
+
+.container-titulo {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 39.89px;
+}
+
+.container-imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container_botao {
+    background-color: var(--azul-botao);
+    padding: 1em;
+    border-radius: 5px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+    margin: 0 0 1em 0;
+}
+
+.container_botao_secundario {
+    background-color: transparent;
+    border: solid 2px var(--branco-principal);
+    
+}
+
+.container_aviso {
+    font-size: 12px;
+    line-height: 14.52px;
+    color: var(--cinza-principal);
+
+}
+
+/* Segunda sessão */
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+
+}
+
+.secudario-imagem {
+    width: 60%;
+}
+
+.descricao-titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    margin: 0 0 0.1em 0;
+}
+
+.descricao-texto {
+    color: var(--cinza-principal);
+}
+
+/* Terceira sessão */
+
+.container-descricao {
+    padding: 2em;
+}
+
+.conteiner-botao-terceario {
+    display: inline-block;
+    margin: 1em 0;
+}
+
+/* Terceira sessão */
+
+
+
+/* Quarta sessão */
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos-titulo {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 57.6px;
+    color: var(--branco-principal);
+}
+
+.dispositivos-lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+
+.lista-item{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    color: var(--branco-principal);
+}
+
+/* Estilo Rodape */
+
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape-lista {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.lista-link {
+    margin: 2em 2em;
+}
+
+.lista-link a {
+    text-decoration: none;
+    color: var(--branco-principal);
+}
+
+.lista-link a:hover {
+    color: #167BF7;
+    text-decoration: underline;
+}
+
+.lista-link a:active {
+    color: #f79616;
+    text-decoration: underline;
+
+}
+
+.rodape-texto {
+    margin-bottom: 2em;
+    color: var(--cinza-principal);
+    font-size: 14px;
+}
